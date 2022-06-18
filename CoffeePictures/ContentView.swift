@@ -16,12 +16,12 @@ struct ContentView: View {
                 Text("Click for coffee pictures")
                     .font(.system(size: 26, weight: .medium))
                     .foregroundColor(Color.white)
+                    .frame(width: 310, height: 50)
+                    .background(Color.brown)
+                    .cornerRadius(12)
+                    .shadow(radius: 8)
+                    .padding([.bottom], 30)
             }
-            .frame(width: 310, height: 50)
-            .background(Color.brown)
-            .cornerRadius(12)
-            .shadow(radius: 8)
-            .padding([.bottom], 30)
         }
     }
     
